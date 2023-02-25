@@ -70,16 +70,19 @@ body {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
+	color: greenyellow;
 }
 
 .navbar .navbar-container .site-title a {
 	text-decoration: none;
+	color: greenyellow;
 }
 
 .navbar .navbar-container .site-type {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
+	color: greenyellow;
 }
 
 .navbar .navbar-container .site-year {
@@ -87,6 +90,7 @@ body {
 	-ms-flex-positive: 2;
 	flex-grow: 2;
 	text-align: right;
+	color: greenyellow;
 }
 
 /* header */
@@ -98,12 +102,22 @@ body {
 
 .header .header-container h1 {
 	font-family: "Dawning of a New Day";
-	font-size: 12rem;
+	font-size: 8rem;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Bigilla';
+	font-size: 7rem;
 }
 
 @media (max-width: 900px) {
 	.header .header-container h1 {
 		font-size: 5.4rem;
+	}
+
+	h2 {
+		font-size: 6rem;
 	}
 }
 
@@ -170,7 +184,8 @@ body {
 
 .about .about-container p {
 	margin: 40px 0;
-	font-size: 36px;
+	font-size: 30px;
+	color: greenyellow;
 }
 
 @media (max-width: 900px) {
@@ -181,6 +196,167 @@ body {
 		font-size: 24px;
 	}
 }
+
+/* skills */
+
+.email-section {
+	width: 100%;
+	padding-top: 30px;
+}
+
+.skills-container {
+	margin: 0 0 40px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.projects-container {
+	margin: 5px 0 10px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.skills-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.icon {
+	padding: 20px 22px 0 22px;
+	margin: 0;
+}
+
+.text-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.process-icon {
+	padding: 20px 22px 0 22px;
+	margin: 0;
+}
+
+.projects-div {
+	padding: 20px 22px 15px 22px;
+	margin: 0;
+}
+
+.title {
+	font-family: 'Dawning of a New Day';
+	font-size: 50px;
+}
+
+.develop-icon {
+	position: relative;
+	top: 5px;
+}
+
+.javascript-text {
+	position: relative;
+	right: 6px;
+}
+
+.adobe-icon {
+	width: 59px;
+	position: relative;
+	top: 2px;
+}
+
+.adobe-text {
+	position: relative;
+	top: 6px;
+}
+
+.photoshop-icon {
+	width: 75px;
+	position: relative;
+	top: -5px;
+}
+
+.photoshop-text {
+	position: relative;
+	top: -9px;
+}
+
+.sketch-icon {
+	width: 85px;
+	position: relative;
+	top: -12px;
+	right: 12px;
+}
+
+.sketch-text {
+	position: relative;
+	top: -20px;
+	right: 12px;
+}
+
+.test-icon {
+	width: 80px;
+	position: relative;
+	top: -1px;
+}
+
+.launch-icon {
+	width: 80px;
+	position: relative;
+	top: -4px;
+	right: 8px;
+}
+
+.launch-text {
+	position: relative;
+	top: -15px;
+	right: 8px;
+}
+
+.text {
+	padding-top: 10px;
+}
+
+.test-text {
+	position: relative;
+	top: -15px;
+}
+
+.title {
+	text-align: center;
+}
+
+.click-github {
+	text-align: center;
+}
+
+.link-github {
+	text-decoration: none;
+}
+
+.line {
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	position: relative;
+	top: 40px;
+}
+
+.project-img {
+	width: 400px;
+}
+
+
+.cert-img {
+	width: 300px;
+}
+
+
 
 /* projects */
 
@@ -293,7 +469,7 @@ body {
 .menu__item-link,
 .marquee span {
 	white-space: nowrap;
-	font-size: 8vw;
+	font-size: 6vw;
 	padding: 1.6vw 1vw;
 	font-weight: 900;
 }
@@ -301,6 +477,13 @@ body {
 .marquee span {
 	font-family: "Bigilla" !important;
 	text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+	.menu__item-link,
+	.marquee span {
+		font-size: 9vw;
+	}
 }
 
 @-webkit-keyframes marquee {
@@ -329,9 +512,9 @@ body {
 
 .clients .clients-container p {
 	font-family: "Dawning of a New Day";
-	font-size: 80px;
+	font-size: 75px;
 	line-height: 100px;
-	color: yellow;
+	color: greenyellow;
 }
 
 @media (max-width: 900px) {
@@ -361,7 +544,8 @@ body {
 	cursor: pointer;
 	text-decoration: none;
 	font-family: "Bigilla" !important;
-	font-size: 64px;
+	font-size: 53px;
+	color: #fff;
 }
 
 @media (max-width: 900px) {
