@@ -1,235 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Minimalist Portfolio</title>
-		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linktree Clone</title>
+    <link rel="stylesheet" href="links-styles.css"/>
 
-		<!-- Fonts -->
-		<link rel="stylesheet" href="/sk modernist/Sk-Modernist-Regular.otf" />
-		<link rel="stylesheet" href="/bigilla/Bigilla.otf" />
-		<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Raleway+Dots&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto+Mono:wght@100;200;300;400&family=Silkscreen&display=swap" rel="stylesheet">
 
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="container">
-				<!-- navbar -->
-				<div class="navbar">
-					<div class="navbar-container">
-						<div class="site-title"><a href="https://www.instagram.com/chaeri.heav3n/" target="_blank">chaeri.heav3n</a></div>
-						<div class="site-type">portfolio</div>
-						<div class="site-year">2023</div>
-					</div>
-				</div>
+</head>
+<body>
+    <header>
+        <div class="share-button" link="index.html">
+            <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+        </div>
+    </header>
 
-				<!-- divider -->
-				<div class="divider"></div>
+    <div id="bg-container">
+        <div id="bg"></div>
+        <script type="text/javascript" src="particles.min.js"></script>
+        <script type="text/javascript" src="bg-particles.js"></script>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="images/IMG_7099.jpg" />
+    </div>
+        <h1>@chaeri.heav3n</h1>
 
-				<!-- header -->
-				<div class="header">
-					<div class="header-container">
-						<h1>Zay~ Ford :)<br />Digital Designer</h1>
-					</div>
-				</div>
+        <a class="tile" href="main.html" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/watermelon-svgrepo-com.svg" />
+            </div>
+            <p class="website">*Website Officiel*</p>
+            <div class="tile-share-button" link="main.html">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://youtu.be/OzrNjwAsh0w" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/grapefruit-svgrepo-com.svg" />
+            </div>
+            <p>Latest Video</p>
+            <div class="tile-share-button" link="https://youtu.be/OzrNjwAsh0w">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://www.youtube.com/playlist?list=PLOGuxFMUsIM8O11z3X5QWgZnyqUljTPb8" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/kiwi-svgrepo-com.svg" />
+            </div>
+            <p>✰ multidimensional ✰</p>
+            <div class="tile-share-button" link="https://www.youtube.com/playlist?list=PLOGuxFMUsIM8O11z3X5QWgZnyqUljTPb8">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://github.com/Chaeri-Heav3n" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/cherry-svgrepo-com.svg" />
+            </div>
+            <p>Github | See My Code</p>
+            <div class="tile-share-button" link="https://github.com/Chaeri-Heav3n">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://www.linkedin.com/in/zay-ford-97949b247/" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/fig-svgrepo-com.svg" />
+            </div>
+            <p>LinkedIn</p>
+            <div class="tile-share-button" link="https://www.linkedin.com/in/zay-ford-97949b247/">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+        <a class="tile" href="https://www.instagram.com/chaeri.heav3n/" target="_blank">
+            <div class="icon">
+                <img class="svg" src="icons/pear-svgrepo-com.svg" />
+            </div>
+            <p>Instagram</p>
+            <div class="tile-share-button" link="https://www.instagram.com/chaeri.heav3n/">
+                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+            </div>
+        </a>
+    </div>
 
-				<!-- hero-image -->
-				<div class="scrollable hero-image">
-					<div class="cell hero-image-container" data-scroll data-scroll-speed="2">
-						<div class="image-cell">
-							<img src="./images/DSC05443 (1).jpeg" alt="Photo of Zay" >
-						</div>
-					</div>
-				</div>
-				
-				<!--<div class="hero-image">
-					<div class="hero-image-container" data-scroll data-scroll-speed="2">
-						<img src="https://i.ibb.co/CBBfZDP/DSC05443-1.jpg" alt="photo of zay" border="0"" alt="" />
-					</div>
-				</div>-->
+<script src="app.js"></script>
 
-				<div class="whitespace"></div>
-
-				<!-- sections -->
-				<div class="section-header">
-					<div class="section-header-container">
-						<div class="section-title">about</div>
-						<div class="section-order">/001</div>
-					</div>
-				</div>
-
-				<div class="divider"></div>
-
-				<!-- about -->
-				<section class="about">
-					<div class="about-container">
-						<p>
-							Greetings! I'm chaeri.heav3n, fka, Zay. My deep driving passion & muse
-							is life itself. My experiences heavily influence my creations 
-							and is channeled to create sound, music, poetry, 3D art, abstract art, and so on. 
-						</p>
-						<p>
-							My declared life's work is being funneled into <a href="https://www.youtube.com/channel/UCB2vyk19067nWCTAVhuNkPA" target="_blank">here.ynow</a>.
-							It is currently under construction as I get my online presence started, so follow me
-							on <a href="https://www.instagram.com/chaeri.heav3n/" target="_blank">Instagram</a> for updates.
-						</p>
-						<p>Thanks for stopping by! And I hope to see you stay for the journey!</p>
-					</div>
-				</section>
-
-				<div class="whitespace"></div>
-
-				<!-- projects -->
-				<div class="section-header">
-					<div class="section-header-container">
-						<div class="section-title">projects + services</div>
-						<div class="section-order">/002</div>
-					</div>
-				</div>
-
-				<div class="divider"></div>
-
-				<section class="project">
-					<div class="project-container">
-						<div>
-							<nav class="menu">
-								<div class="menu__item">
-									<a class="menu__item-link" href="email-web.html">/ EMAIL & WEB DESIGN</a>
-									<img class="menu__item-img" src="images/webpage.png" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>EMAIL & WEB DESIGN</span>
-											<span>EMAIL & WEB DESIGN</span>
-											<span>EMAIL & WEB DESIGN</span>
-											<span>EMAIL & WEB DESIGN</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="divider"></div>
-
-								<div class="menu__item">
-									<a class="menu__item-link" href="3d.html">/ 3D & AUG. REALITY</a>
-									<img class="menu__item-img" src="images/noback.png0000.png" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>3D & AUGMENTED REALITY</span>
-											<span>3D & AUGMENTED REALITY</span>
-											<span>3D & AUGMENTED REALITY</span>
-											<span>3D & AUGMENTED REALITY</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="divider"></div>
-
-								<div class="menu__item">
-									<a class="menu__item-link" href="https://www.youtube.com/channel/UCB2vyk19067nWCTAVhuNkPA" target="_blank">/ HERE.YNOW (YT)</a>
-									<img class="menu__item-img" src="images/self love.png" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>HERE.YNOW</span>
-											<span>HERE.YNOW</span>
-											<span>HERE.YNOW</span>
-											<span>HERE.YNOW</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="divider"></div>
-
-								<!--<div class="menu__item">
-									<a class="menu__item-link">/ HERE.YNOW (YT)</a><span class="construction">*under consrtuction*</span>
-									<img class="menu__item-img" src="images/project-four.jpeg" />
-									<div class="marquee">
-										<div class="marquee__inner">
-											<span>Brutal</span>
-											<span>Brutal</span>
-											<span>Brutal</span>
-											<span>Brutal</span>
-										</div>
-									</div>
-								</div>-->
-
-								<div class="divider"></div>
-
-								<!--<div class="menu__item">
-									<a class="menu__item-link">/ </a>
-									<img class="menu__item-img" src="images/project-five.jpeg" />
-									<div class="marquee">
-										<div class="marquee__inner" aria-hidden="true">
-											<span>The Crew</span>
-											<span>The Crew</span>
-											<span>The Crew</span>
-											<span>The Crew</span>
-										</div>
-									</div>
-								</div>-->
-							</nav>
-						</div>
-					</div>
-				</section>
-
-				<div class="whitespace"></div>
-
-				<!-- clients -->
-				<div class="section-header">
-					<div class="section-header-container">
-						<div class="section-title">status</div>
-						<div class="section-order">/003</div>
-					</div>
-				</div>
-
-				<div class="divider"></div>
-
-				<section class="clients">
-					<div class="clients-container">
-						<p>
-							<br />
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;open for work & collaborations.
-							<br />
-						</p>
-					</div>
-				</section>
-
-				<div class="whitespace"></div>
-
-				<!-- social  -->
-				<div class="section-header">
-					<div class="section-header-container">
-						<div class="section-title">socials</div>
-						<div class="section-order">/004</div>
-					</div>
-				</div>
-
-				<div class="divider"></div>
-
-				<section class="socials">
-					<div class="socials-container">
-						<div class="socials-id dr"><a href="https://www.instagram.com/chaeri.heav3n/" target="_blank">instagram</a></div>
-						<div class="socials-id ln"><a href="https://github.com/Chaeri-Heav3n" target="_blank">github</a></div>
-						<div class="socials-id ig"><a href="">linkedin</a></div>
-						<div class="socials-id tw"><a href="https://www.youtube.com/playlist?list=PLOGuxFMUsIM8O11z3X5QWgZnyqUljTPb8" target="_blank">✰playlist✰</a></div>
-					</div>
-				</section>
-
-				<div class="divider"></div>
-
-				<!-- footer -->
-				<div class="footer">
-					<div class="navbar">
-						<div class="navbar-container">
-							<div class="site-title">chaeri.heav3n@htmldreams.com</div>
-							<div class="site-year">55.386656, 11.764279</div>
-						</div>
-					</div>
-				</div>
-				<br />
-			</div>
-		</div>
-
-	</body>
+</body>
 </html>
